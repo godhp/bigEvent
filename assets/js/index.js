@@ -19,7 +19,7 @@ function getUserInfo() {
         method: "GET",
         url: "/my/userinfo",
         success: function(res) {
-            console.log(res);
+            // console.log(res);
             if (res.status !== 0) {
                 return layer.msg("获取用户信息失败")
             }
